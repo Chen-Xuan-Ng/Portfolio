@@ -26,6 +26,17 @@ body {
     }
   }
 
+.pdf-toolbar {
+    display: none;
+}
+
+/* .pdf-zoom-controls {
+    display: none;
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
 
 iframe { 
     width: 100%; 
@@ -33,9 +44,6 @@ iframe {
     height: 317px; 
     /* height: 100vh;  */
     border: none; 
-        view-toolbar{ 
-            display: none; 
-        }
 }
 
 .container { 
